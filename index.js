@@ -37,3 +37,5 @@ nextISSTimesForMyLocation((error, flyOverTimes) => {
   }
   console.log(flyOverTimes);
 });
+
+module.exports = {nextISSTimesForMyLocation};
